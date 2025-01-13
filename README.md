@@ -35,8 +35,16 @@ npm run lint
 
 ## TESTS (FR)
 
-10 Erreurs ont été remontées et on était traitées. Si vous souhaitait le vérifiez, copiez coller le fichier index-before-tests.js dans index.js et exécutez les tests.
+10 Erreurs ont été remontées et on était traitées. Si vous souhaitait le vérifiez, copiez coller le fichier index-before-tests.js dans index.js et exécutez les tests. 
 
+Après modifications, nous obtenons une couverture totale de 100% et tous les tests passent.
+| File      | % Stmts | % Branch | % Funcs | % Lines | Uncovered Line #s |
+|-----------|---------|----------|---------|---------|-------------------|
+| All files |     100 |      100 |     100 |     100 |                   |
+| index.js  |     100 |      100 |     100 |     100 |                   |
+
+Test Suites: 1 passed, 1 total
+Tests:       76 passed, 76 total
 
 ### Descriptions des tests
 
