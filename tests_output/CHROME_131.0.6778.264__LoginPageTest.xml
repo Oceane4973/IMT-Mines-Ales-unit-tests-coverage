@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="0"
+            failures="1"
+            tests="3">
+
+  <testsuite name="LoginPageTest"
+    errors="0" failures="1" hostname="" id="" package="LoginPageTest" skipped="0"
+    tests="3" time="25.17" timestamp="">
+  
+    <testcase name="1. Tests de la structure de la page" classname="LoginPageTest" time="0.8790" assertions="5">
+
+    
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="2. Tests de validation des champs" classname="LoginPageTest" time="2.620" assertions="3">
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="3. Tests de Performance" classname="LoginPageTest" time="9.087" assertions="3">
+
+    
+
+      <failure message="Testing if the URL is &#39;http://127.0.0.1:9090/admin&#39; in 5000ms - expected &#34;is &#39;http://127.0.0.1:9090/admin&#39;&#34; but got: &#34;http://127.0.0.1:9090/login&#34; (5183ms)">    at 3. Tests de Performance (/home/oceane/Documents/cours/2A/S7/Validation de logiciel/quality-env-tests/tests/LoginPageTest.js:72:15)</failure>
+
+    
+    </testcase>
+  
+
+  
+
+    
+
+  
+  </testsuite>
+</testsuites>

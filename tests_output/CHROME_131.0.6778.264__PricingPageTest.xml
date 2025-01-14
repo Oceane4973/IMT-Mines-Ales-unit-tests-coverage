@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="0"
+            failures="0"
+            tests="4">
+
+  <testsuite name="PricingPageTest"
+    errors="0" failures="0" hostname="" id="" package="PricingPageTest" skipped="0"
+    tests="4" time="34.26" timestamp="">
+  
+    <testcase name="1. Tests for the banner section" classname="PricingPageTest" time="2.669" assertions="4">
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="2. Tests for the pricing cards" classname="PricingPageTest" time="10.07" assertions="19">
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="4. Responsiveness tests" classname="PricingPageTest" time="3.036" assertions="13">
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="5. Performance tests" classname="PricingPageTest" time="1.345" assertions="2">
+
+    
+
+    
+    </testcase>
+  
+
+  
+
+    
+
+  
+  </testsuite>
+</testsuites>

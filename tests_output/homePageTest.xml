@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="1"
+            failures="0"
+            tests="0">
+
+  <testsuite name="homePageTest"
+    errors="1" failures="0" hostname="" id="" package="homePageTest" skipped="1"
+    tests="0" time="0.002000" timestamp="">
+  
+
+  
+    <system-err>
+       An error occurred while creating a new ChromeDriver session: [SessionNotCreatedError] session not created: This version of ChromeDriver only supports Chrome version 131
+Current browser version is 129.0.6668.100 with binary path /opt/google/chrome/chrome
+  Verify if ChromeDriver is configured correctly; using:
+  {
+     start_process: true,
+     server_path: &#39;/home/oceane/Documents/cours/2A/S7/Validation de logiciel/quality-env-tests/node_modules/chromedriver/lib/chromedriver/chromedriver&#39;,
+     port: undefined,
+     host: &#39;localhost&#39;,
+     ssl: false,
+     default_path_prefix: &#39;&#39;,
+     proxy: undefined,
+     cli_args: {}
+  }
+
+ 
+  Set webdriver.log_path in your Nightwatch config to retrieve more logs from ChromeDriver.
+    </system-err>
+  
+
+    
+    <error message=""><![CDATA[
+      
+      ]]></error>  
+
+  
+    
+    <testcase
+      name="1. Tests de la bannière principale" classname="homePageTest">
+      <skipped />
+    </testcase>
+    
+  
+  </testsuite>
+</testsuites>

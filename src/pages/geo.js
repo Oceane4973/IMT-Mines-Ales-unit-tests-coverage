@@ -135,7 +135,7 @@ const Localisation = class {
                   A proximité
               </h5>
               <p>Situé sur la promenade qui longe la mer, l'appartement offre un accès direct à la plage.</p>
-              <p> Nombreux commerces à proximité immédiate : restaurants, bars, supérette...</p>
+              <p>Nombreux commerces à proximité immédiate : restaurants, bars, supérette...</p>
               <p>Parc naturel Cap de Creuz.</p>
               <p>Villages typiques de la Costa Brava : Cadaques (Village de Dali), Figueras, Pals, Calella de Pallafrugell, Escala, Paratallada, Peralada...</p>
                      </div>

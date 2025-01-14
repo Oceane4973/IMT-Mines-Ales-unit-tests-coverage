@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="0"
+            failures="0"
+            tests="2">
+
+  <testsuite name="ContactPageTest"
+    errors="0" failures="0" hostname="" id="" package="ContactPageTest" skipped="0"
+    tests="2" time="26.18" timestamp="">
+  
+    <testcase name="1. Main Banner Tests" classname="ContactPageTest" time="0.8820" assertions="4">
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="2. Contact Form Tests" classname="ContactPageTest" time="12.21" assertions="10">
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+  
+
+  
+
+    
+
+  
+  </testsuite>
+</testsuites>

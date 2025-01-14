@@ -118,147 +118,75 @@ const Home = class {
   renderSettings() {
     return `
       <section id="caracteristiques" class="mt-5 pt-4">
-        <div class="row">
-          <div class="12">
-            <h3 class="display-6">Caractéristiques</h3>
-          </div>
+      <div class="row">
+        <div class="col-12">
+          <h3 class="display-6">Caractéristiques</h3>
         </div>
-        <div class="row">
-          <!-- Icon -->
-          <div class="col-1 pt-4 pb-4 ps-4 pe-4 text-center">
-            <div class="row">
-              <div class="col-12">
-                <img class="img-fluid" src="${sunUmbrella}" alt="icon"/>
-              </div>
-            </div>
-            <div class="col-12 mt-2">
-              <span class="mt-2 lh-1">Plage à 30m</span>
-            </div>
-          </div>
-          <!-- Icon -->
-          <div class="col-1 pt-4 pb-4 ps-4 pe-4 text-center">
-            <div class="row">
-              <div class="col-12">
-                <img class="img-fluid" src="${freeParking}" alt="icon"/>
-              </div>
-            </div>
-            <div class="col-12 mt-2">
-              <span class="mt-2 lh-1">Parking gratuit</span>
-            </div>
-          </div>
-          <!-- Icon -->
-          <div class="col-1 pt-4 pb-4 ps-4 pe-4 text-center">
-            <div class="row">
-              <div class="col-12">
-                <img class="img-fluid" src="${restaurant}" alt="icon"/>
-              </div>
-            </div>
-            <div class="col-12 mt-2">
-              <span class="mt-2 lh-1">Restaurants</span>
-            </div>
-          </div>
-          <!-- Icon -->
-          <div class="col-1 pt-4 pb-4 ps-4 pe-4 text-center">
-            <div class="row">
-              <div class="col-12">
-                <img class="img-fluid" src="${restaurant2}" alt="icon"/>
-              </div>
-            </div>
-            <div class="col-12 mt-2">
-              <span class="mt-2 lh-1">Commerces</span>
-            </div>
-          </div>
-          <!-- Icon -->
-          <div class="col-1 pt-4 pb-4 ps-4 pe-4 text-center">
-            <div class="row">
-              <div class="col-12">
-               <img class="img-fluid" src="${table}" alt="icon"/>
-              </div>
-            </div>
-            <div class="col-12 mt-2">
-              <span class="mt-2 lh-1">Salon de jardin</span>
-            </div>
-          </div>
-          <!-- Icon -->
-          <div class="col-1 pt-4 pb-4 ps-4 pe-4 text-center">
-            <div class="row">
-              <div class="col-12">
-                <img class="img-fluid" src="${bathing}" alt="icon"/>
-              </div>
-            </div>
-            <div class="col-12 mt-2">
-              <span class="mt-2 lh-1">Baignoire</span>
-            </div>
-          </div>
-          <!-- Icon -->
-          <div class="col-1 pt-4 pb-4 ps-4 pe-4 text-center">
-            <div class="row">
-              <div class="col-12">
-                <img class="img-fluid" src="${microwave}" alt="icon"/>
-              </div>
-            </div>
-            <div class="col-12 mt-2">
-              <span class="mt-2 lh-1">Micro-ondes</span>
-            </div>
-          </div>
-          <!-- Icon -->
-          <div class="col-1 pt-4 pb-4 ps-4 pe-4 text-center">
-            <div class="row">
-              <div class="col-12">
-                <img class="img-fluid" src="${coffeeMachine}" alt="icon"/>
-              </div>
-            </div>
-            <div class="col-12 mt-2">
-              <span class="mt-2 lh-1">Cafetière</span>
-            </div>
-          </div>
-          <!-- Icon -->
-          <div class="col-1 pt-4 pb-4 ps-4 pe-4 text-center">
-            <div class="row">
-              <div class="col-12">
-                <img class="img-fluid" src="${noPets}" alt="icon"/>
-              </div>
-            </div>
-            <div class="col-12 mt-2">
-              <span class="mt-2 lh-1">Pas d'animaux</span>
-            </div>
-          </div>
-          <!-- Icon -->
-          <div class="col-1 pt-4 pb-4 ps-4 pe-4 text-center">
-            <div class="row">
-              <div class="col-12">
-                <img class="img-fluid" src="${noTv}" alt="icon"/>
-              </div>
-            </div>
-            <div class="col-12 mt-2">
-              <span class="mt-2 lh-1">Pas de TV</span>
-            </div>
-          </div>
-          <!-- Icon -->
-          <div class="col-1 pt-4 pb-4 ps-4 pe-4 text-center">
-            <div class="row">
-              <div class="col-12">
-                <img class="img-fluid" src="${noSingal}" alt="icon"/>
-              </div>
-            </div>
-            <div class="col-12 mt-2">
-              <span class="mt-2 lh-1">Pas de WIFI</span>
-            </div>
-          </div>
-          <!-- Icon -->
-          <div class="col-1 pt-4 pb-4 ps-4 pe-4 text-center">
-            <div class="row">
-              <div class="col-12">
-                <img class="img-fluid" src="${noSmoking}" alt="icon"/>
-              </div>
-            </div>
-            <div class="col-12 mt-2">
-              <span class="mt-2 lh-1">Non fumeur</span>
-            </div>
-          </div>
+      </div>
+      <div class="row row-cols-2 row-cols-md-4 row-cols-lg-6 g-3">
+        <!-- Icon -->
+        <div class="col text-center">
+          <img class="img-fluid" src="${sunUmbrella}" alt="icon" style="max-width: 25px; height: auto;"/>
+          <span class="d-block mt-2">Plage à 30m</span>
         </div>
-      </section>
-    `;
+        <!-- Icon -->
+        <div class="col text-center">
+          <img class="img-fluid" src="${freeParking}" alt="icon" style="max-width: 25px; height: auto;"/>
+          <span class="d-block mt-2">Parking gratuit</span>
+        </div>
+        <!-- Icon -->
+        <div class="col text-center">
+          <img class="img-fluid" src="${restaurant}" alt="icon" style="max-width: 25px; height: auto;"/>
+          <span class="d-block mt-2">Restaurants</span>
+        </div>
+        <!-- Icon -->
+        <div class="col text-center">
+          <img class="img-fluid" src="${restaurant2}" alt="icon" style="max-width: 25px; height: auto;"/>
+          <span class="d-block mt-2">Commerces</span>
+        </div>
+        <!-- Icon -->
+        <div class="col text-center">
+          <img class="img-fluid" src="${table}" alt="icon" style="max-width: 25px; height: auto;"/>
+          <span class="d-block mt-2">Salon de jardin</span>
+        </div>
+        <!-- Icon -->
+        <div class="col text-center">
+          <img class="img-fluid" src="${bathing}" alt="icon" style="max-width: 25px; height: auto;"/>
+          <span class="d-block mt-2">Baignoire</span>
+        </div>
+        <!-- Icon -->
+        <div class="col text-center">
+          <img class="img-fluid" src="${microwave}" alt="icon" style="max-width: 25px; height: auto;"/>
+          <span class="d-block mt-2">Micro-ondes</span>
+        </div>
+        <!-- Icon -->
+        <div class="col text-center">
+          <img class="img-fluid" src="${coffeeMachine}" alt="icon" style="max-width: 25px; height: auto;"/>
+          <span class="d-block mt-2">Cafetière</span>
+        </div>
+        <!-- Icon -->
+        <div class="col text-center">
+          <img class="img-fluid" src="${noPets}" alt="icon" style="max-width: 25px; height: auto;"/>
+          <span class="d-block mt-2">Pas d'animaux</span>
+        </div>
+        <!-- Icon -->
+        <div class="col text-center">
+          <img class="img-fluid" src="${noTv}" alt="icon" style="max-width: 25px; height: auto;"/>
+          <span class="d-block mt-2">Pas de TV</span>
+        </div>
+        <!-- Icon -->
+        <div class="col text-center">
+          <img class="img-fluid" src="${noSingal}" alt="icon" style="max-width: 25px; height: auto;"/>
+          <span class="d-block mt-2">Pas de WIFI</span>
+        </div>
+        <!-- Icon -->
+        <div class="col text-center">
+          <img class="img-fluid" src="${noSmoking}" alt="icon" style="max-width: 25px; height: auto;"/>
+          <span class="d-block mt-2">Non fumeur</span>
+        </div>
+      </div>
+    </section>
+  `;
   }
 
   renderAPrices() {

@@ -22,7 +22,7 @@ const FeedBack = class {
         </div>
         <div class="mb-3">
           <label class="form-label h5">Message :</label>
-          <textarea name="message" class="form-control" rows="4"></textarea>
+          <textarea name="message" class="form-control" rows="4" required></textarea>
         </div>
         <div class="row">
           <div class="col-9"></div>
@@ -30,7 +30,7 @@ const FeedBack = class {
             <div class="d-grid gap-2">
               <button type="submit" class="btn btn-primary">
                 <i class="fa-solid fa-paper-plane"></i>
-                  Envoyer
+                Envoyer
               </button>
             </div>
           </div>

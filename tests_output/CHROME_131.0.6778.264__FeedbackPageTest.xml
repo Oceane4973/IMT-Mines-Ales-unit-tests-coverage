@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="0"
+            failures="0"
+            tests="2">
+
+  <testsuite name="FeedbackPageTest"
+    errors="0" failures="0" hostname="" id="" package="FeedbackPageTest" skipped="0"
+    tests="2" time="25.91" timestamp="">
+  
+    <testcase name="1. Tests for the main banner" classname="FeedbackPageTest" time="1.312" assertions="6">
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="3. Tests for the feedback form" classname="FeedbackPageTest" time="11.64" assertions="9">
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+  
+
+  
+
+    
+
+  
+  </testsuite>
+</testsuites>
