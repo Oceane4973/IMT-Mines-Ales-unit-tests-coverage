@@ -35,13 +35,15 @@ const Login = class Login {
     this.app.get('/login/', (req, res) => {
       try {
         this.UserModel.findOne({'$and': [{ login: req.query.login, password: req.query.password}]}).then((login) => {
-          if (Object.keys(login).length) {
+          if (login && Object.keys(login).length) {
             const body = { id: login.id, email: login.email };
             const token = jwt.sign({ login: body }, 'SANDRA_SECRET');
-
             res.status(200).json({ token: token });
           } else {
-            res.status(401).json({});
+            res.status(401).json({
+              code: 401,
+              message: 'Invalid credentials'
+            });
           }
         }).catch(() => {
           res.status(403).json({

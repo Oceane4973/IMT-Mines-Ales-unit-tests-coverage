@@ -2,12 +2,6 @@
 
 Ce document décrit les scénarios de test et les exigences de performance pour notre API REST.
 
-## Exécution des tests
-
-```bash
-npm run api-test
-```
-
 ## Scénarios de Test
 
 ### 1. Authentication

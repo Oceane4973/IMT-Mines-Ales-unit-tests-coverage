@@ -3,11 +3,13 @@ const mongoose = require('mongoose')
 const Schema = new mongoose.Schema({
   firstName: {
     type: String,
-    required: true
+    required: true,
+    index: true
   },
   lastName: {
     type: String,
-    required: true
+    required: true,
+    index: true
   },
   mobilePhone: {
     type: String,
@@ -17,14 +19,22 @@ const Schema = new mongoose.Schema({
     type: String,
     match: /.+\@.+\..+/,
     required: true,
+    index: true
   },
   arrivedAt: {
     type: Date,
-    required: true
+    required: true,
+    index: true
   },
   departureAt: {
     type: Date,
-    required: true
+    required: true,
+    validate: {
+      validator: function(departureDate) {
+        return departureDate >= this.arrivedAt;
+      },
+      message: 'Departure date must be after or equal to arrival date'
+    }
   },
   message: {
     type: String,
@@ -32,7 +42,8 @@ const Schema = new mongoose.Schema({
   },
   createdAt: {
     type: Date,
-    default: Date.now
+    default: Date.now,
+    index: true
   }
 }, {
   collection: 'contacts',
@@ -45,5 +56,8 @@ const Schema = new mongoose.Schema({
     delete ret._id
   }
 })
+
+Schema.index({ createdAt: -1, firstName: 1 });
+Schema.index({ createdAt: -1, lastName: 1 });
 
 module.exports = Schema

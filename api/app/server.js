@@ -32,19 +32,11 @@ module.exports = class Server {
     const connect = mongoose.createConnection(host)
 
     connect.on('error', (err) => {
-      setTimeout(() => {
-        console.log('[ERROR] users api dbConnect() -> mongodb error')
-        this.connect = this.dbConnect(host)
-      }, 5000)
-
       console.error(`[ERROR] users api dbConnect() -> ${err}`)
     })
 
-    connect.on('disconnected', (err) => {
-      setTimeout(() => {
-        console.log('[DISCONNECTED] users api dbConnect() -> mongodb disconnected')
-        this.connect = this.dbConnect(host)
-      }, 5000)
+    connect.on('disconnected', () => {
+      console.log('[DISCONNECTED] users api dbConnect() -> mongodb disconnected')
     })
 
     process.on('SIGINT', () => {
